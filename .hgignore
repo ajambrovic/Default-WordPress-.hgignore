@@ -37,6 +37,7 @@ xmlrpc.php
 index.php
 wp-activate.php
 wp-config-sample.php
+wp-config.php
 wp-content/themes/twe*
 
 ## ignore node dependency directories (used by grunt)
