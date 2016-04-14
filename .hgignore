@@ -1,0 +1,76 @@
+# -----------------------------------------------------------------
+# .gitignore for WordPress @salcode
+# ver 20160309
+#
+# From the root of your project run
+# curl -O https://gist.githubusercontent.com/salcode/b515f520d3f8207ecd04/raw/.gitignore
+# to download this file
+#
+#
+
+# ignore everything in the root except the "wp-content" directory.
+
+wp-admin
+wp-includes
+
+
+## ignore everything in the "wp-content" directory, except:
+## mu-plugins, plugins, and themes directories
+
+wp-content/plugins
+wp-mail.php
+wp-trackback.php
+license.txt
+wp-cron.php
+wp-login.php
+index.php
+wp-links-opml.php
+wp-activate.php
+wp-config-sample.php
+wp-settings.php
+wp-signup.php
+readme.html
+wp-load.php
+wp-blog-header.php
+wp-comments-post.php
+xmlrpc.php
+index.php
+wp-activate.php
+wp-config-sample.php
+wp-content/themes/twe*
+
+## ignore node dependency directories (used by grunt)
+node_modules
+
+## ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+wp-content/themes/UNDPcustomtheme/style.css
+## ignore Editor files
+.sublime-project
+.sublime-workspace
+.komodoproject
+.idea
+
+## ignore log files and databases
+.log
+.sql
+.sqlite
+
+## ignore packaged files
+.7z
+.dmg
+.gz
+.iso
+.jar
+.rar
+.tar
+.zip
+
+## ignore compiled files
+.com
+.class
+.dll
+.exe
+.so
