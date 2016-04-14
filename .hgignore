@@ -46,7 +46,6 @@ node_modules
 ehthumbs.db
 Thumbs.db
 
-wp-content/themes/UNDPcustomtheme/style.css
 ## ignore Editor files
 .sublime-project
 .sublime-workspace
